@@ -1,0 +1,99 @@
+CREATE DATABASE base_spa;
+
+USE base_spa;
+
+CREATE TABLE `empleados` (
+  `codempleado` bigint NOT NULL,
+  `nomempleado` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `apellempleado` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `telempleado` bigint DEFAULT NULL,
+  `dirempleado` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `fechaNacimiento` date DEFAULT NULL,
+  `cargo` varchar(25) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`codempleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `inicio_sesion` (
+  `codempleado` bigint NOT NULL,
+  `nombusuario` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `contrasenia` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  KEY `codempleado` (`codempleado`),
+  CONSTRAINT `inicio_sesion_ibfk_1` FOREIGN KEY (`codempleado`) REFERENCES `empleados` (`codempleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_general_ci;
+
+CREATE TABLE `servicio` (
+  `codservicio` bigint NOT NULL AUTO_INCREMENT,
+  `nomservicio` varchar(60) COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`codservicio`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `subservicio` (
+  `codsubservicio` bigint NOT NULL AUTO_INCREMENT,
+  `nomsubservicio` varchar(60) COLLATE utf8mb4_general_ci NOT NULL,
+  `codservicio` bigint NOT NULL,
+  `codempleado` bigint(20) COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`codsubservicio`),
+  KEY `codservicio` (`codservicio`),
+  KEY `codempleado` (`codempleado`),
+  CONSTRAINT `subservicio_ibfk_1` FOREIGN KEY (`codservicio`) REFERENCES `servicio` (`codservicio`),
+  CONSTRAINT `subservicio_ibfk_2` FOREIGN KEY (`codempleado`) REFERENCES `empleados` (`codempleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `reservas` (
+  `idReserva` bigint NOT NULL AUTO_INCREMENT,
+  `nombreCliente` varchar(50) NOT NULL,
+  `emailCliente` varchar(50) NOT NULL,
+  `telefonoCliente` bigint NOT NULL,
+  `fechaReserva` datetime NOT NULL,
+  `codservicio` bigint NOT NULL,
+  PRIMARY KEY (`idReserva`),
+  KEY `FK_servicio` (`codservicio`),
+  CONSTRAINT `FK_servicio` FOREIGN KEY (`codservicio`) REFERENCES `servicio` (`codservicio`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `factura` (
+  `codfactura` bigint NOT NULL AUTO_INCREMENT,
+  `fecha` date NOT NULL,
+  `forma_de_pago` varchar(30) COLLATE utf8mb4_general_ci NOT NULL,
+  `cancelada` tinyint(1) NOT NULL,
+  `codempleado` bigint NOT NULL,
+  PRIMARY KEY (`codfactura`),
+  KEY `codempleado` (`codempleado`),
+  CONSTRAINT `factura_ibfk_1` FOREIGN KEY (`codempleado`) REFERENCES `empleados` (`codempleado`) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `detalles` (
+  `forma_de_pago` varchar(30) COLLATE utf8mb4_general_ci NOT NULL,
+  `precio` float NOT NULL,
+  `codservicio` bigint NOT NULL,
+  `codfactura` bigint NOT NULL,
+  KEY `codfactura` (`codfactura`),
+  KEY `codservicio` (`codservicio`),
+  CONSTRAINT `detalles_ibfk_1` FOREIGN KEY (`codfactura`) REFERENCES `factura` (`codfactura`) ON UPDATE CASCADE,
+  CONSTRAINT `detalles_ibfk_2` FOREIGN KEY (`codservicio`) REFERENCES `servicio` (`codservicio`) ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `promociones` (
+  `codpromo` bigint NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(100) NOT NULL,
+  `descripcion` varchar(255) NOT NULL,
+  `imagen` varchar(255) NOT NULL,
+  `fecha_inicio` date NOT NULL,
+  `fecha_fin` date NOT NULL,
+  `codsubservicio1` bigint NOT NULL,
+  `codsubservicio2` bigint NOT NULL,
+  PRIMARY KEY (`codpromo`),
+  CONSTRAINT `FK_subservicio1` FOREIGN KEY (`codsubservicio1`) REFERENCES `subservicio` (`codsubservicio`),
+  CONSTRAINT `FK_subservicio2` FOREIGN KEY (`codsubservicio2`) REFERENCES `subservicio` (`codsubservicio`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `servicio_empleado` (
+  `idSerEmp` bigint NOT NULL AUTO_INCREMENT,
+  `codservicio` bigint NOT NULL,
+  `codempleado` bigint NOT NULL,
+  PRIMARY KEY (`idSerEmp`),
+  KEY `codservicio` (`codservicio`),
+  KEY `codempleado` (`codempleado`),
+  CONSTRAINT `servicio_empleado_ibfk_1` FOREIGN KEY (`codservicio`) REFERENCES `servicio` (`codservicio`),
+  CONSTRAINT `servicio_empleado_ibfk_2` FOREIGN KEY (`codempleado`) REFERENCES `empleados` (`codempleado`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

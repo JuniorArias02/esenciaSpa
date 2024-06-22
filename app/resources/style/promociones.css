@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: "Times New Roman";
+}
+
+/* diseño encabezado header */
+header {
+  width: 100%;
+  height: auto;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+}
+
+.logo-img {
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  font-family: Arial;
+  margin-top: 0;
+  padding: 0;
+}
+
+ul li {
+  height: 100%;
+  line-height: 50px;
+  background: white;
+  opacity: 0.75;
+  margin: 0px 1px;
+}
+
+ul li a {
+  padding: 0px 10px;
+  display: block;
+}
+
+ul li a:hover {
+  background: bisque;
+  color: brown;
+  font-weight: bold;
+  transition: background-color 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+  transition-duration: 1s;
+}
+
+ul li ul {
+  display: inline-block;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+ul li ul li {
+  display: none;
+}
+
+/* diseno contenido */
+.contenido {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+/* contenido inicio */
+.contenido-inicio {
+  width: 100%;
+  height: 500px;
+}
+
+.imagen-contenido {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarse */
+  object-position: bottom;
+}
+
+/* contenido cuerpo */
+.contenido-cuerpo {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.texto-Normal {
+  width: 95%;
+  font-size: 5.5vh;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #333;
+  text-align: center;
+}
+
+/* contenido bienvenida */
+.contenido-bienvenida {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+}
+
+/* contenido final */
+.contenido-final {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333333;
+  color: white;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.derechos-reservados {
+  text-align: center;
+  color: #ffffff; /* Color del texto, puede ser un tono oscuro que contraste bien con el fondo */
+  font-size: 14px; /* Tamaño de fuente */
+  margin-top: 20px; /* Espacio superior para separarlo del contenido principal */
+}
+
+.subTexto {
+  font-size: 3.5vh;
+}
+
+/* Nuevos Tratamientos Faciales */
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.service h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  font-family: "Times New Roman";
+}
+/* diseño encabezado header */
+header {
+  width: 100%;
+  height: auto;
+  /* background: antiquewhite;
+                color: #fff; */
+}
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+}
+.logo-img {
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+  font-family: Arial;
+  margin-top: 0;
+  padding: 0;
+}
+
+ul li {
+  height: 100%;
+  line-height: 50px;
+  background: white;
+  opacity: 0.75;
+  margin: 0px 1px;
+}
+
+ul li a {
+  padding: 0px 10px;
+  display: block;
+}
+
+ul li a:hover {
+  background: bisque;
+  color: brown;
+  font-weight: bold;
+  transition: background-color 0.5s ease, color 0.5s ease, font-weight 0.5s ease;
+  transition-duration: 1s;
+}
+
+ul li ul {
+  display: inline-block;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+ul li ul li {
+  display: none;
+}
+/* sub menu */
+.menu-items {
+  list-style: none;
+  padding: 0;
+  position: relative; /* Añade posición relativa al menú principal */
+  z-index: 1000;
+}
+
+.menu-items li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative; /* Añade posición relativa a los elementos del menú */
+  /* z-index: 1000; */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Coloca el submenu debajo del elemento padre */
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Asegura que el submenu esté por encima del contenido */
+}
+
+.menu-items li:hover .submenu {
+  display: block;
+  width: auto;
+
+  /* z-index: 1000; */
+}
+
+.submenu li {
+  display: block;
+  margin: 5px 0;
+}
+
+.submenu li a {
+  color: #333;
+  text-decoration: none;
+  white-space: pre-line;
+  font-size: 2vh;
+  width: 300px;
+}
+
+.submenu li a:hover {
+  color: #555;
+}
+
+/* contenido */
+.contenido {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+/* conteino inicio */
+.contenido-inicio {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.imagen-contenido {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarse */
+  object-position: bottom;
+}
+
+/* conteiod cuerpo */
+.contenido-cuerpo {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.contenido-titulo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+/* cuadrito */
+.contenido-info {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.info-left {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  /* background: royalblue; */
+}
+
+.info-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  /* background: gray; */
+}
+/* ajustando carta */
+.carta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  transition-duration: 1s;
+}
+
+.info-left:hover .carta{
+  transform: translateY(-5);
+  transition-duration: 1s;
+}
+
+.carta-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* overflow: hidden; */
+}
+
+
+/* idea descartada */
+/* cuando el mause este pro encima el texto salga */
+/* .carga-imagen-texto{
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  transition-duration: 1s;
+} */
+
+/* .carta-image:hover .carga-imagen-texto{
+  left: 0px;
+  opacity: 1;
+  transform: scale(1.3);
+  transition-duration: 1;
+  background-color: antiquewhite;
+} */
+
+
+.contexto-servicio{
+  display: flex;
+  justify-content:center ;
+  width: 100%;
+  height: auto;
+
+}
+.contexto-servicio p {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.carta-titulo {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.texto-cuerpo {
+  width: 95%;
+  font-size: 2.5vh;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+}
+.imagen-contenido {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionarse */
+  object-position: bottom;
+}
+
+.carta-tratamiento {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+/* contenido final */
+.contenido-final {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333333;
+  color: white;
+}
+.derechos-reservados {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* contenido tratamientos */
+.contenido-tratamientos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* ajustar la imagen de las cartas tratamnetso */
+.contenido-tratamientos .carta-image {
+  width: 80%;
+}
+
+.contenido-tratamientos-left {
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.contenido-tratamientos-center {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.contenido-tratamientos-right {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+
+}
+
+.pre-operatorio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.pre-ope-image {
+  flex-basis: 45%;
+  text-align: left;
+}
+.pre-contenido {
+  flex-basis: 45%;
+}
+
+.pre-contenido h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.pre-contenido p {
+  text-align: justify;
+  font-weight: light;
+  font-size: 18px;
+}
+
+.post-operatorio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.post-ope-image {
+  flex-basis: 45%;
+  text-align: right;
+}
+.post-contenido {
+  flex-basis: 45%;
+}
+
+.post-contenido h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.post-contenido p {
+  text-align: justify;
+  font-weight: light;
+  font-size: 18px;
+}

@@ -1,0 +1,19 @@
+.formulario-reserva-admin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background: white;
+}
+.formulario-reserva-admin form {
+  width: 90%;
+  padding: 40px;
+}
+
+.btn-guardar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
