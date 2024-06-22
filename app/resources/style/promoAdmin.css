@@ -1,0 +1,76 @@
+.formulario-promocion {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.contenido-cuerpo #nuestros_Servicios p{
+    font-size: 5.5vh;
+}
+
+.promocion_form {
+  width: 70%;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.promocion_form form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.promociones_admin {
+  width: 100%;
+  height: auto;
+}
+
+.promociones_admin h1 {
+  text-align: center;
+}
+.promociones_admin p {
+  text-align: center;
+}
+
+.contenido-info-promocion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: auto;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.service img{
+    width: 50%;
+}
+
+.service form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

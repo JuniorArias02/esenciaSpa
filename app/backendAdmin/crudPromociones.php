@@ -21,25 +21,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $codsubservicio1 = $_POST['codsubservicio1'];
     $codsubservicio2 = $_POST['codsubservicio2'];
 
+    // Manejo de la imagen
     $target_dir = "../uploads/";
     $target_file = $target_dir . basename($_FILES["imagen"]["name"]);
-    move_uploaded_file($_FILES["imagen"]["tmp_name"], $target_file);
+    $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-    $imagen = basename($_FILES["imagen"]["name"]);
+    // Verificar si el archivo es una imagen real
+    $check = getimagesize($_FILES["imagen"]["tmp_name"]);
+    if ($check !== false) {
+        // Verificar si la carpeta de destino existe y tiene permisos correctos
+        if (!is_dir($target_dir)) {
+            mkdir($target_dir, 0777, true);
+        }
 
-    // Insertar la promoción en la base de datos
-    $sql = "INSERT INTO promociones (titulo, descripcion, imagen, fecha_inicio, fecha_fin, codsubservicio1, codsubservicio2)
-            VALUES (?, ?, ?, ?, ?, ?, ?)";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sssssii", $titulo, $descripcion, $imagen, $fecha_inicio, $fecha_fin, $codsubservicio1, $codsubservicio2);
+        // Subir la imagen
+        if (move_uploaded_file($_FILES["imagen"]["tmp_name"], $target_file)) {
+            $imagen = basename($_FILES["imagen"]["name"]);
 
-    if ($stmt->execute()) {
-        echo "Nueva promoción agregada exitosamente";
+            // Insertar la promoción en la base de datos
+            $sql = "INSERT INTO promociones (titulo, descripcion, imagen, fecha_inicio, fecha_fin, codsubservicio1, codsubservicio2)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)";
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("sssssii", $titulo, $descripcion, $imagen, $fecha_inicio, $fecha_fin, $codsubservicio1, $codsubservicio2);
+
+            if ($stmt->execute()) {
+                echo "Nueva promoción agregada exitosamente";
+            } else {
+                echo "Error: " . $stmt->error;
+            }
+
+            $stmt->close();
+        } else {
+            echo "Error subiendo la imagen.";
+        }
     } else {
-        echo "Error: " . $stmt->error;
+        echo "El archivo no es una imagen.";
     }
-
-    $stmt->close();
 }
 
 $conn->close();

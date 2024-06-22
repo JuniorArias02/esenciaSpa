@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EsenciaSpa</title>
     <link rel="stylesheet" href="../resources/style/reservas.css">
     <link rel="stylesheet" href="../resources/style/tipografia.css">
+    <link rel="stylesheet" href="../resources/style/promoAdmin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="../resources/js/detectar.js" defer></script>
 </head>
+
 <body>
     <header class="header">
         <div class="menu">
@@ -52,25 +56,26 @@
             </ul>
         </div>
     </header>
-    <div class="formulario-reserva">
-        <h1 class="titulo-reserva roboto-bold">Crear promoción</h1>
-        <form action="../backendAdmin/crudPromociones.php" method="POST" enctype="multipart/form-data">
-            <label for="titulo">Título:</label>
-            <input type="text" id="titulo" name="titulo" required><br><br>
-            <label for="descripcion">Descripción:</label>
-            <textarea id="descripcion" name="descripcion" required></textarea><br><br>
-            <label for="imagen">Imagen:</label>
-            <input type="file" id="imagen" name="imagen" required><br><br>
-            <label for="fecha_inicio">Fecha Inicio:</label>
-            <input type="date" id="fecha_inicio" name="fecha_inicio" required><br><br>
-            <label for="fecha_fin">Fecha Fin:</label>
-            <input type="date" id="fecha_fin" name="fecha_fin" required><br><br>
-            <label for="codsubservicio1">Servicio 1:</label>
-            <select id="codsubservicio1" name="codsubservicio1" required>
-            <?php
+    <div class="formulario-promocion">
+        <div class="promocion_form">
+            <h1 class="titulo-reserva roboto-bold">Crear promoción</h1>
+            <form action="../backendAdmin/crudPromociones.php" method="POST" enctype="multipart/form-data" class="roboto-bold">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required><br><br>
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea><br><br>
+                <label for="imagen">Imagen:</label>
+                <input type="file" id="imagen" name="imagen" required><br><br>
+                <label for="fecha_inicio">Fecha Inicio:</label>
+                <input type="date" id="fecha_inicio" name="fecha_inicio" required><br><br>
+                <label for="fecha_fin">Fecha Fin:</label>
+                <input type="date" id="fecha_fin" name="fecha_fin" required><br><br>
+                <label for="codsubservicio1">Servicio 1:</label>
+                <select id="codsubservicio1" name="codsubservicio1" required>
+                    <?php
                     $servername = "localhost";
                     $username = "root";
-                    $password = "root";
+                    $password = "";
                     $dbname = "base_spa";
 
                     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -89,37 +94,40 @@
                     }
 
                     $conn->close();
-                ?>
-            </select><br><br>
+                    ?>
+                </select><br><br>
 
-            <label for="codsubservicio2">Subservicio 2:</label>
-            <select id="codsubservicio2" name="codsubservicio2" required>
-                <?php
+                <label for="codsubservicio2">Subservicio 2:</label>
+                <select id="codsubservicio2" name="codsubservicio2" required>
+                    <?php
                     $servername = "localhost";
                     $username = "root";
-                    $password = "root";
+                    $password = "";
                     $dbname = "base_spa";
-        
+
                     $conn = new mysqli($servername, $username, $password, $dbname);
-        
+
                     if ($conn->connect_error) {
                         die("Conexión fallida: " . $conn->connect_error);
                     }
-        
+
                     $sql_subservicios = "SELECT codsubservicio, nomsubservicio FROM subservicio";
                     $result_subservicios = $conn->query($sql_subservicios);
-        
+
                     if ($result_subservicios->num_rows > 0) {
                         while ($row = $result_subservicios->fetch_assoc()) {
                             echo '<option value="' . $row['codsubservicio'] . '">' . $row['nomsubservicio'] . '</option>';
                         }
                     }
-        
+
                     $conn->close();
-                ?>
-            </select><br><br>
-            <button type="submit">Agregar Promoción</button>
-        </form>
+                    ?>
+                </select><br><br>
+                <button type="submit">Agregar Promoción</button>
+            </form>
+        </div>
+
     </div>
 </body>
+
 </html>

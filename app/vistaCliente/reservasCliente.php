@@ -56,7 +56,7 @@
                     <?php
                     $servername = "localhost";
                     $username = "root";
-                    $password = "root";
+                    $password = "";
                     $dbname = "base_spa";
 
                     $conn = new mysqli($servername, $username, $password, $dbname);

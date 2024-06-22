@@ -119,12 +119,13 @@
                         <img src="../resources/img/4.png" alt="" srcset="" class="imagen-contenido">
                     </div>
                     <div class="carta-titulo ">
-                        <h2 class="roboto-bold texto-cuerpo">TRATAMIENTO ANTIACNE</h2>
+                        <h2 class="roboto-bold texto-cuerpo">TRATAMIENTO ANTI-ACNÉ</h2>
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Plan especial para tratamiento anti-acné, el cual combate las bacterias, previniendo la
+                            proliferación de granos, espinillas, puntos negros y minimizando las marcas o
+                            cicatrices provocadas por estas alteraciones de la piel.
                         </p>
                     </div>
                 </div>
@@ -137,8 +138,9 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            El tratamiento facial rejuvenecedor que estimula la producción de colágeno
+                            y elastina, mejorando la piel del rostro, eliminando manchas, líneas finas y cicatrices
+                            post-acné.
                         </p>
                     </div>
                 </div>
@@ -149,12 +151,13 @@
                         <img src="../resources/img/4.png" alt="" srcset="" class="imagen-contenido">
                     </div>
                     <div class="carta-titulo ">
-                        <h2 class="roboto-bold texto-cuerpo">LIMPIEZA FACIAL PETOX</h2>
+                        <h2 class="roboto-bold texto-cuerpo">LIMPIEZA FACIAL DETOX</h2>
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Tratamiento facial especializado para desintoxicar y purificar la pie,
+                            eliminando impureza, toxinas, contaminantes y celulas muerta, quedevuelve
+                            la vitalidad, losani, energiay luminosidad de la piel
                         </p>
                     </div>
                 </div>
@@ -167,8 +170,8 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Plan especializado para el manejo de manchas y secuelas post-acné, buscando
+                            una renovación profunda de la piel y mejorando el aspecto, color y textura.
                         </p>
                     </div>
                 </div>
@@ -181,8 +184,7 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            análisis especializado utilizado para evaluar la función de las plaquetas en el plasma sanguíneo. Este estudio es esencial para diagnosticar y monitorear trastornos de la coagulación.
                         </p>
                     </div>
                 </div>
@@ -197,8 +199,9 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Tratamiento especializado de rejuvenecimiento facial donde además de limpiar
+                            y purificar la piel, se recupera la vitalidad y luminosidad del rostro dando
+                            un aspecto de piel de porcelana.
                         </p>
                     </div>
                 </div>
@@ -211,8 +214,8 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Tratamiento que renueva las células y equilibra las pieles grasas, reduciendo
+                            el acné, comedone, pústulas, manchas e inflamación producida por el acne.
                         </p>
                     </div>
                 </div>
@@ -225,8 +228,9 @@
                     </div>
                     <div class="contexto-servicio">
                         <p class="roboto-light">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            Tratamientos de medicina éstetica que buscan una intensa revitalización facial,
+                            hidratación en profundidad, atenuando arruga, aportando brillo y luminosidad,
+                            devolviendo juventud y tersura al rostro
                         </p>
                     </div>
                 </div>
@@ -250,8 +254,8 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Tratamiendo realizado para la reducción de medidas, acomulación de grasa
+                                localizada y la reafirmación del área corporal que se ha tratado.
                             </p>
                         </div>
                     </div>
@@ -264,8 +268,7 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Logra la figura esculpida que siempre has deseado con nuestro exclusivo Pack Body Sculptor. Este tratamiento integral combina técnicas de masaje modelador, envolturas corporales y tecnología avanzada para reducir grasa localizada, tonificar músculos y mejorar la firmeza de la piel.
                             </p>
                         </div>
                     </div>
@@ -278,8 +281,9 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Tratamiento no invasivo que ayuda a mejorar el tono muscular de los
+                                glúteos, dando como resultado un desarrollo, crecimiento y tonificación
+                                muscular con resultados efectivos.
                             </p>
                         </div>
                     </div>
@@ -294,8 +298,8 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Indicado para adiposidades rebelde, personas que estén interesadas en perder
+                                peso y que ya han intentado otros tratamientos
                             </p>
                         </div>
                     </div>
@@ -308,8 +312,9 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Tratamiento que busca mejorar el aspecto de la piel de naranja, movilizar
+                                y destruir las adiposidades, eliminar la acomulación de toxinas, liquidos
+                                y grasas que se acumulan en tejido conjuntivo, drenar y tonificar.
                             </p>
                         </div>
                     </div>
@@ -322,8 +327,9 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Una conbinación de principios activos que ayudan a reestructurar la
+                                epidermis, bioestimular el aumento del tono de la pie, eliminar celulitis,
+                                dando como resultado un desarrollo, crecimiento y tonificación muscular.
                             </p>
                         </div>
                     </div>
@@ -352,8 +358,9 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Tratamiento para controlar la flacidez, la aparición de estrías,celulitis
+                                y manchas, mejorando el aspecto de la piel del glúteo haciendolo ver más
+                                firme y con mayor volumen.
                             </p>
                         </div>
                     </div>
@@ -366,8 +373,7 @@
                         </div>
                         <div class="contexto-servicio">
                             <p class="roboto-light">
-                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                Transforma y tonifica con nuestro exclusivo Pack Glúteos de Impacto. Este tratamiento combina técnicas avanzadas de masaje y ejercicios específicos para esculpir y levantar los glúteos, proporcionando resultados visibles y duraderos.
                             </p>
                         </div>
                     </div>
@@ -391,8 +397,7 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Ideal para aliviar el estrés y la tensión acumulada por largas horas de trabajo, nuestro Masaje Ejecutivo se enfoca en revitalizar tu cuerpo y mente. Este tratamiento combina técnicas de masaje profundo en áreas clave como la espalda, el cuello y los hombros, proporcionando un alivio rápido y efectivo.
                                 </p>
                             </div>
                         </div>
@@ -405,8 +410,8 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Una experiencia mágica y romántica con tu persona favorita liberando
+                                    tus sentidos y el estrés.
                                 </p>
                             </div>
                         </div>
@@ -419,8 +424,8 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Regala una experiencia de bienestar a tu persona favorita en su día especial
+                                    dónde relaja el cuerpo y la mente, elimina tensión renovando su energia
                                 </p>
                             </div>
                         </div>
@@ -449,8 +454,8 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Una experiencia mágica para compartir con tu persona favorita liberando tus
+                                    sentidos y el estrés.
                                 </p>
                             </div>
                         </div>
@@ -463,8 +468,11 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Sin duda es un ritual de relajación que ayuda a aliviar problemas físicos
+                                    yemocionales, mientras te aporta un flujo importante de energía,posicionandolas
+                                    sobre los puntos energéticos es un resorte cargado devitalidad, relaja nuestra
+                                    musculatura, alivia las tensiones eirremediablemente ayuda a la relajación de todo
+                                    nuestro cuerpo. El estado detu piel, inmejorable. Todo son ventajas.
                                 </p>
                             </div>
                         </div>
@@ -479,8 +487,7 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Sumérgete en una experiencia de tranquilidad y bienestar con nuestro Masaje Relajante. Este tratamiento utiliza técnicas suaves y movimientos lentos para liberar la tensión muscular y calmar tu mente.
                                 </p>
                             </div>
                         </div>
@@ -493,8 +500,11 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Revitaliza tu cuerpo y relaja tu mente con este exclusivo ritual. El masajem
+                                    concañasde bambú fusiona en un solo tratamiento los beneficios de
+                                    variastecnicas diferentes de masajes, proporcionando una placentera sensación
+                                    derelax a la vez que tonifica todas las partes del cuerpo, dejando tu piel
+                                    suave,flexible y relajada.
                                 </p>
                             </div>
                         </div>
@@ -507,8 +517,7 @@
                             </div>
                             <div class="contexto-servicio">
                                 <p class="roboto-light">
-                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                    Cuidamos de ti y de tu bebé con nuestro exclusivo Spa Prenatal. Este tratamiento está diseñado específicamente para futuras mamás, proporcionando alivio y bienestar durante el embarazo. Disfruta de un masaje suave y reconfortante que alivia la tensión en la espalda, las piernas y los pies, mientras mejora la circulación y reduce la hinchazón.
                                 </p>
                             </div>
                         </div>

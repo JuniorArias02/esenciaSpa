@@ -107,7 +107,9 @@
                     echo '</tbody>';
                     echo '</table>';
                 } else {
+                    echo '<div class="error-codigo">';
                     echo '<p class="roboto-light txt-center">No se encontró ningún empleado con el código indicado</p>';
+                    echo '</div>';
                 }
                 
             }

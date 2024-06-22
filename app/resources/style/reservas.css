@@ -101,7 +101,7 @@ ul li ul li {
 }
 .texto-Normal {
   width: 95%;
-  font-size: 5.5vh;
+  font-size: 2.5vh;
   line-height: 1.5;
   letter-spacing: 1px;
   color: #333;
@@ -114,7 +114,8 @@ ul li ul li {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 400px;
+  height: auto;
+
   background: #ffffff;
 }
 /* contenido final */
@@ -205,11 +206,15 @@ label {
 
 /* efecto si hay contenido  */
 .con-contenido {
-  background-color: rgba(173, 216, 230, 0.5); /* Azul claro con 50% de opacidad */
+  background-color: rgba(
+    173,
+    216,
+    230,
+    0.5
+  ); /* Azul claro con 50% de opacidad */
 }
 
 /* inputs */
- 
 
 input[type="text"],
 input[type="email"],
@@ -231,6 +236,28 @@ button {
 }
 /* efecto hover */
 input[type="text"]:hover {
+  border-color: #f5cbec;
+  transform: scale(1.03);
+  transition-duration: 1s;
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* border: 1px solid #ccc; */
+  border: 1px solid transparent;
+  border-width: 0 0 2px 0;
+  /* border-radius: 5px; */
+  box-sizing: border-box;
+  font-size: 16px;
+  transition-duration: 0.5s;
+}
+textarea:hover {
+  border-color: #f5cbec;
+  transform: scale(1.03);
+  transition-duration: 1s;
+}
+select:hover {
   border-color: #f5cbec;
   transform: scale(1.03);
   transition-duration: 1s;
@@ -269,4 +296,13 @@ button:hover {
 }
 form {
   height: auto;
+}
+
+
+/* de otra pagina en recervas admin  */
+.formulario-reserva-admin{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

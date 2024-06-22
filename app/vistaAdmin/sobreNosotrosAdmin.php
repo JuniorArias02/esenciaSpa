@@ -81,10 +81,7 @@
                     <p>- Email: esenciaspacentrodeestetica@gmail.com</p>
                 </div>
                 <div class="info-mapa">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d237.3413083890903!2d-72.47529396505504!3d7.912897054038562!3m2!1i1024!2i768!4f13.1!2m1!1sEsencia%20Spa!5e1!3m2!1ses-419!2sco!4v1715390392955!5m2!1ses-419!2sco"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d237.3413083890903!2d-72.47529396505504!3d7.912897054038562!3m2!1i1024!2i768!4f13.1!2m1!1sEsencia%20Spa!5e1!3m2!1ses-419!2sco!4v1715390392955!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="contenido-nuestroEquipo">
@@ -122,19 +119,20 @@
             </div>
             <div class="contenido-quienesSomos">
                 <div class="contenido-empresa"></div>
-                <div class="info-left">   
+                <div class="info-left">
                     <div class="info-titulo">
                         <h2 class="roboto-bold">QUIENES SOMOS</h2>
-                    </div>                 
+                    </div>
                     <div class="info-mision">
                         <div class="info-titulo">
                             <h2 class="roboto-bold">NUESTRA MISIÓN</h2>
                         </div>
                         <div class="texto-mision roboto-light texto-Normal">
-                            Esencia Spa es un espacio creado para mantener su salud,
-                            belleza y bienestar; implementando actividades terapéuticas cuyo principal objetivo es hacer sentir a
-                            nuestros clientes relajados, libres de estrés, aumentar su autoestima y mejorar su
-                            apariencia, contando con una relación de confianza, seguridad y fidelidad.
+                            <p>Esencia Spa es un espacio creado para mantener su salud,
+                                belleza y bienestar; implementando actividades terapéuticas cuyo principal objetivo es hacer sentir a
+                                nuestros clientes relajados, libres de estrés, aumentar su autoestima y mejorar su
+                                apariencia, contando con una relación de confianza, seguridad y fidelidad.</p>
+
                         </div>
                     </div>
                     <div class="info-vision">
@@ -149,7 +147,7 @@
                     </div>
                 </div>
                 <div class="info-right">
-                   
+
                     <div class="info-objetivos">
                         <div class="info-titulo">
                             <h2 class="roboto-bold">NUESTROS OBJETIVOS</h2>

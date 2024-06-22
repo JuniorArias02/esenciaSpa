@@ -128,10 +128,13 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">LIMPIEZA FACIAL PROFUNDA</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
-                            en profundidad, eliminando impurezas, oxigenando y renovandola.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
+                                en profundidad, eliminando impurezas, oxigenando y renovandola.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
 
@@ -141,11 +144,14 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">TRATAMIENTO ANTI-ACNÉ</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Plan especial para tratamiento anti-acné, el cual combate las bacterias, previniendo la
-                            proliferación de granos, espinillas, puntos negros y minimizando las marcas o
-                            cicatrices provocadas por estas alteraciones de la piel.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Plan especial para tratamiento anti-acné, el cual combate las bacterias, previniendo la
+                                proliferación de granos, espinillas, puntos negros y minimizando las marcas o
+                                cicatrices provocadas por estas alteraciones de la piel.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
 
@@ -155,11 +161,14 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">LFP+ DERMAPEN FACIAL</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            El tratamiento facial rejuvenecedor que estimula la producción de colágeno
-                            y elastina, mejorando la piel del rostro, eliminando manchas, líneas finas y cicatrices
-                            post-acné.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                El tratamiento facial rejuvenecedor que estimula la producción de colágeno
+                                y elastina, mejorando la piel del rostro, eliminando manchas, líneas finas y cicatrices
+                                post-acné.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
 
@@ -173,11 +182,13 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">LIMPIEZA FACIAL DETOX</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Trratamiento facial especializado para desintoxicary purificar la pie,
-                            eliminando impureza, toxinas, contaminantes y celulas muerta, quedevuelve
-                            la vitalidad, losani, energiay luminosidad de la piel
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Trratamiento facial especializado para desintoxicary purificar la pie,
+                                eliminando impureza, toxinas, contaminantes y celulas muerta, quedevuelve
+                                la vitalidad, losani, energiay luminosidad de la piel
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="carta-tratamiento">
@@ -186,10 +197,12 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">TRATAMIENTO POST-ACNE</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Plan especializado para el manejo de manchas y secuelas post-acné, buscando
-                            una renovación profunda de la piel y mejorando el aspecto, color y textura.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Plan especializado para el manejo de manchas y secuelas post-acné, buscando
+                                una renovación profunda de la piel y mejorando el aspecto, color y textura.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="carta-tratamiento">
@@ -198,6 +211,11 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">LFP+ PLASMATICO EN PLAQUETAS</h2>
+                    </div>
+                    <div class="contexto-servicio">
+                        <p class="roboto-light">
+                            análisis especializado utilizado para evaluar la función de las plaquetas en el plasma sanguíneo. Este estudio es esencial para diagnosticar y monitorear trastornos de la coagulación.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -208,11 +226,13 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">FACIAL PIEL PORCELANA</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Tratamiento especializado de rejuvenecimiento facial donde además de limpiar
-                            y purificar la piel, se recupera la vitalidad y luminosidad del rostro dando
-                            un aspecto de piel de porcelana.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Tratamiento especializado de rejuvenecimiento facial donde además de limpiar
+                                y purificar la piel, se recupera la vitalidad y luminosidad del rostro dando
+                                un aspecto de piel de porcelana.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="carta-tratamiento">
@@ -221,10 +241,12 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">PELLING PROFESIONAL</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Tratamiento que renueva las células y equilibra las pieles grasas, reduciendo
-                            el acné, comedone, pústulas, manchas e inflamación producida por el acne.
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Tratamiento que renueva las células y equilibra las pieles grasas, reduciendo
+                                el acné, comedone, pústulas, manchas e inflamación producida por el acne.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="carta-tratamiento">
@@ -233,11 +255,13 @@
                     </div>
                     <div class="carta-titulo ">
                         <h2 class="roboto-bold texto-cuerpo">REJUVENECIMIENTO FACIAL</h2>
-                        <p class="roboto-light texto-cuerpo">
-                            Tratamientos de medicina éstetica que buscan una intensa revitalización facial,
-                            hidratación en profundidad, atenuando arruga, aportando brillo y luminosidad,
-                            devolviendo juventud y tersura al rostro
-                        </p>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                                Tratamientos de medicina éstetica que buscan una intensa revitalización facial,
+                                hidratación en profundidad, atenuando arruga, aportando brillo y luminosidad,
+                                devolviendo juventud y tersura al rostro
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,10 +282,13 @@
                         </div>
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK BODY CONTOUR</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Tratamiendo realizado para la reducción de medidas, acomulación de grasa
-                                localizada y la reafirmación del área corporal que se ha tratado.
-                            </p>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light texto-cuerpo">
+                                    Tratamiendo realizado para la reducción de medidas, acomulación de grasa
+                                    localizada y la reafirmación del área corporal que se ha tratado.
+                                </p>
+
+                            </div>
                         </div>
                     </div>
                     <div class="carta-tratamiento">
@@ -271,6 +298,11 @@
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK BODY SCULPTOR</h2>
                         </div>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light texto-cuerpo">
+                            Logra la figura esculpida que siempre has deseado con nuestro exclusivo Pack Body Sculptor. Este tratamiento integral combina técnicas de masaje modelador, envolturas corporales y tecnología avanzada para reducir grasa localizada, tonificar músculos y mejorar la firmeza de la piel.
+                            </p>
+                        </div>
                     </div>
                     <div class="carta-tratamiento">
                         <div class="carta-image">
@@ -278,11 +310,14 @@
                         </div>
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK GLUTEOS UP PEPTONAS</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Tratamiento no invasivo que ayuda a mejorar el tono muscular de los
-                                glúteos, dando como resultado un desarrollo, crecimiento y tonificación
-                                muscular con resultados efectivos.
-                            </p>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light texto-cuerpo">
+                                    Tratamiento no invasivo que ayuda a mejorar el tono muscular de los
+                                    glúteos, dando como resultado un desarrollo, crecimiento y tonificación
+                                    muscular con resultados efectivos.
+                                </p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -293,10 +328,13 @@
                         </div>
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK BODY REDUX</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Indicado para adiposidades rebelde, personas que estén interesadas en perder
-                                peso y que ya han intentado otros tratamientos
-                            </p>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light texto-cuerpo">
+                                    Indicado para adiposidades rebelde, personas que estén interesadas en perder
+                                    peso y que ya han intentado otros tratamientos
+                                </p>
+
+                            </div>
                         </div>
                     </div>
                     <div class="carta-tratamiento">
@@ -305,11 +343,13 @@
                         </div>
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK BYE BYE CELULITIS</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Tratamiento que busca mejorar el aspecto de la piel de naranja, movilizar
-                                y destruir las adiposidades, eliminar la acomulación de toxinas, liquidos
-                                y grasas que se acumulan en tejido conjuntivo, drenar y tonificar.
-                            </p>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light texto-cuerpo">
+                                    Tratamiento que busca mejorar el aspecto de la piel de naranja, movilizar
+                                    y destruir las adiposidades, eliminar la acomulación de toxinas, liquidos
+                                    y grasas que se acumulan en tejido conjuntivo, drenar y tonificar.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="carta-tratamiento">
@@ -318,11 +358,13 @@
                         </div>
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK GLUTEOS DE ACERO</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Una conbinación de principios activos que ayudan a reestructurar la
-                                epidermis, bioestimular el aumento del tono de la pie, eliminar celulitis,
-                                dando como resultado un desarrollo, crecimiento y tonificación muscular.
-                            </p>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light texto-cuerpo">
+                                    Una conbinación de principios activos que ayudan a reestructurar la
+                                    epidermis, bioestimular el aumento del tono de la pie, eliminar celulitis,
+                                    dando como resultado un desarrollo, crecimiento y tonificación muscular.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -334,17 +376,10 @@
                         <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK BODY CONTOUR FULL</h2>
                         </div>
-                    </div>
-                    <div class="carta-tratamiento">
-                        <div class="carta-image">
-                            <img src="../resources/img/TratamientosCorporales.png" alt="" srcset="" class="imagen-contenido">
-                        </div>
-                        <div class="carta-titulo ">
-                            <h2 class="roboto-bold texto-cuerpo">PACK GLUTEOS UP VITAMINA C</h2>
-                            <p class="roboto-light texto-cuerpo">
-                                Tratamiento para controlar la flacidez, la aparición de estrías,celulitis
-                                y manchas, mejorando el aspecto de la piel del glúteo haciendolo ver más
-                                firme y con mayor volumen.
+                        <div class="contexto-servicio">
+                            <p class="roboto-light">
+                                Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
+                                en profundidad, eliminando impurezas, oxigenando y renovandola.
                             </p>
                         </div>
                     </div>
@@ -353,7 +388,27 @@
                             <img src="../resources/img/TratamientosCorporales.png" alt="" srcset="" class="imagen-contenido">
                         </div>
                         <div class="carta-titulo ">
+                            <h2 class="roboto-bold texto-cuerpo">PACK GLUTEOS UP VITAMINA C</h2>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light ">
+                                    Tratamiento para controlar la flacidez, la aparición de estrías,celulitis
+                                    y manchas, mejorando el aspecto de la piel del glúteo haciendolo ver más
+                                    firme y con mayor volumen.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carta-tratamiento">
+                        <div class="carta-image">
+                            <img src="../resources/img/TratamientosCorporales.png" alt="" srcset="" class="imagen-contenido">
+                        </div>
+                        <div class="carta-titulo ">
                             <h2 class="roboto-bold texto-cuerpo">PACK GLUTEOS DE IMPACTO</h2>
+                        </div>
+                        <div class="contexto-servicio">
+                            <p class="roboto-light">
+                                Transforma y tonifica con nuestro exclusivo Pack Glúteos de Impacto. Este tratamiento combina técnicas avanzadas de masaje y ejercicios específicos para esculpir y levantar los glúteos, proporcionando resultados visibles y duraderos.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -374,6 +429,11 @@
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">MASAJE EJECUTIVO</h2>
                             </div>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light">
+                                    Ideal para aliviar el estrés y la tensión acumulada por largas horas de trabajo, nuestro Masaje Ejecutivo se enfoca en revitalizar tu cuerpo y mente. Este tratamiento combina técnicas de masaje profundo en áreas clave como la espalda, el cuello y los hombros, proporcionando un alivio rápido y efectivo.
+                                </p>
+                            </div>
                         </div>
                         <div class="carta-tratamiento">
                             <div class="carta-image">
@@ -381,10 +441,12 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">RITUAL AMOR</h2>
-                                <p class="roboto-light texto-cuerpo">
-                                    Una experiencia mágica y romántica con tu persona favorita liberando
-                                    tus sentidos y el estrés.
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Una experiencia mágica y romántica con tu persona favorita liberando
+                                        tus sentidos y el estrés.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="carta-tratamiento">
@@ -393,10 +455,12 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">RITUAL HAPPY BRTHDAY</h2>
-                                <p class="roboto-light texto-cuerpo">
-                                    Regala una experiencia de bienestar a tu persona favorita en su día especial
-                                    dónde relaja el cuerpo y la mente, elimina tensión renovando su energia
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Regala una experiencia de bienestar a tu persona favorita en su día especial
+                                        dónde relaja el cuerpo y la mente, elimina tensión renovando su energia
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -408,6 +472,12 @@
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">MASAJE TERAPEUTICO</h2>
                             </div>
+                            <div class="contexto-servicio">
+                                <p class="roboto-light">
+                                    Tratamiento especializado para cada tipo de piel con el cual se logra limpiar la piel,
+                                    en profundidad, eliminando impurezas, oxigenando y renovandola.
+                                </p>
+                            </div>
                         </div>
                         <div class="carta-tratamiento">
                             <div class="carta-image">
@@ -415,10 +485,12 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">RITUAL AMIGAS</h2>
-                                <p class="roboto-light texto-cuerpo">
-                                    Una experiencia mágica para compartir con tu persona favorita liberando tus
-                                    sentidos y el estrés.
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Una experiencia mágica para compartir con tu persona favorita liberando tus
+                                        sentidos y el estrés.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="carta-tratamiento">
@@ -427,13 +499,15 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">TERAPIA VOLCANICA ANTIESTRES</h2>
-                                <p class="roboto-light texto-cuerpo">
-                                    Sin duda es un ritual de relajación que ayuda a aliviar problemas físicos
-                                    yemocionales, mientras te aporta un flujo importante de energía,posicionandolas
-                                    sobre los puntos energéticos es un resorte cargado devitalidad, relaja nuestra
-                                    musculatura, alivia las tensiones eirremediablemente ayuda a la relajación de todo
-                                    nuestro cuerpo. El estado detu piel, inmejorable. Todo son ventajas.
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Sin duda es un ritual de relajación que ayuda a aliviar problemas físicos
+                                        yemocionales, mientras te aporta un flujo importante de energía,posicionandolas
+                                        sobre los puntos energéticos es un resorte cargado devitalidad, relaja nuestra
+                                        musculatura, alivia las tensiones eirremediablemente ayuda a la relajación de todo
+                                        nuestro cuerpo. El estado detu piel, inmejorable. Todo son ventajas.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -444,9 +518,11 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">MASAJE RELAJANTE</h2>
-                                <p class="roboto-light texto-cuerpo">
-
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Sumérgete en una experiencia de tranquilidad y bienestar con nuestro Masaje Relajante. Este tratamiento utiliza técnicas suaves y movimientos lentos para liberar la tensión muscular y calmar tu mente.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="carta-tratamiento">
@@ -455,13 +531,15 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">RITUAL BAMBUTERAPIA</h2>
-                                <p class="roboto-light texto-cuerpo">
-                                    Revitaliza tu cuerpo y relaja tu mente con este exclusivo ritual. El masajem
-                                    concañasde bambú fusiona en un solo tratamiento los beneficios de
-                                    variastecnicas diferentes de masajes, proporcionando una placentera sensación
-                                    derelax a la vez que tonifica todas las partes del cuerpo, dejando tu piel
-                                    suave,flexible y relajada.
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Revitaliza tu cuerpo y relaja tu mente con este exclusivo ritual. El masajem
+                                        concañasde bambú fusiona en un solo tratamiento los beneficios de
+                                        variastecnicas diferentes de masajes, proporcionando una placentera sensación
+                                        derelax a la vez que tonifica todas las partes del cuerpo, dejando tu piel
+                                        suave,flexible y relajada.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="carta-tratamiento">
@@ -470,9 +548,11 @@
                             </div>
                             <div class="carta-titulo ">
                                 <h2 class="roboto-bold texto-cuerpo">SPA PRENATAL</h2>
-                                <p class="roboto-light texto-cuerpo">
-
-                                </p>
+                                <div class="contexto-servicio">
+                                    <p class="roboto-light">
+                                        Cuidamos de ti y de tu bebé con nuestro exclusivo Spa Prenatal. Este tratamiento está diseñado específicamente para futuras mamás, proporcionando alivio y bienestar durante el embarazo. Disfruta de un masaje suave y reconfortante que alivia la tensión en la espalda, las piernas y los pies, mientras mejora la circulación y reduce la hinchazón.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -501,7 +581,7 @@
             <div class="pre-ope-image">
                 <img src="../resources/img/4.png" alt="" srcset="" style="max-width: 100%;">
             </div>
-            <div class="pre-ope-contenido">
+            <div class="pre-contenido">
                 <h2 class="roboto-bold">TRATAMIENTOS PRE-QUIRÚRGICOS</h2>
                 <p class="roboto-light">
                     La intervención terapéutica pre-quirúrgica es crucial para preparar al paciente adecuadamente
