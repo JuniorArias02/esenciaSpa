@@ -306,3 +306,59 @@ form {
   flex-direction: column;
   justify-content: center;
 }
+
+table {
+  
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  background-color: #45a049;
+}
+button.cancel {
+  background-color: #f44336;
+}
+button.cancel:hover {
+  background-color: #da190b;
+}
+
+.search-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.search-container form {
+  width: 90%;
+  display:flex ;
+  justify-content: center;
+}
+.buscador{
+  width: 100px;
+}

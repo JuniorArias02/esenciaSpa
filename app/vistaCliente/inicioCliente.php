@@ -17,10 +17,10 @@
                 <img src="../resources/img/logo.png" alt="Logo" class="logo-img">
             </div>
             <ul class="menu-items roboto-bold">
-                <li><a href="../vistaCliente/inicioCliente.php" target="_blank">Inicio</a></li>
-                <li><a href="../vistaCliente/sobreNosotrosCliente.php" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="../vistaCliente/inicioCliente.php" >Inicio</a></li>
+                <li><a href="../vistaCliente/sobreNosotrosCliente.php" >Sobre Nosotros</a></li>
                 <li>
-                    <a href="../vistaCliente/nuestrosServiciosCliente.php" target="_blank">Nuestros Servicios</a>
+                    <a href="../vistaCliente/nuestrosServiciosCliente.php" >Nuestros Servicios</a>
                     <ul class="submenu">
                         <li><a href="#nuestros_Servicios">Nuestros Servicios</a></li>
                         <li><a href="#tratamiento_faciales">Tratamiento Faciales</a></li>
@@ -29,8 +29,9 @@
                         <li><a href="#tratamiento_postOperatorio">Tratamientos Post-Operatorios</a></li>
                     </ul>
                 </li>
-                <li><a href="../vistaCliente/PromocionesCliente.php" target="_blank">Promociones</a></li>
-                <li><a href="../vistaCliente/reservasCliente.php" target="_blank">Reservas</a></li>
+                <li><a href="../vistaCliente/PromocionesCliente.php" >Promociones</a></li>
+                <li><a href="../vistaCliente/reservasCliente.php" >Reservas</a></li>
+                <li><a href="/esenciaSpa">salir</a></li>
             </ul>
         </div>
     </header>

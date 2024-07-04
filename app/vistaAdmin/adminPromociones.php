@@ -22,9 +22,9 @@
             </div>
             <ul class="menu-items roboto-bold">
                 <li><a href="../vistaAdmin/inicioAdmin.php">Inicio</a></li>
-                <li><a href="../vistaAdmin/sobreNosotrosAdmin.php" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="../vistaAdmin/sobreNosotrosAdmin.php" >Sobre Nosotros</a></li>
                 <li>
-                    <a href="../vistaAdmin/nuestrosServiciosAdmin.php" target="_blank">Nuestros Servicios</a>
+                    <a href="../vistaAdmin/nuestrosServiciosAdmin.php" >Nuestros Servicios</a>
                     <ul class="submenu">
                         <li><a href="#nuestros_Servicios">Nuestros Servicios</a></li>
                         <li><a href="#tratamiento_faciales">Tratamiento Faciales</a></li>
@@ -34,25 +34,26 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="../vistaAdmin/PromocionesAdmin.php" target="_blank">Promociones</a>
+                    <a href="../vistaAdmin/PromocionesAdmin.php" >Promociones</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/adminPromociones.php" target="_blank">Administrar promociones</a></li>
+                        <li><a href="../vistaAdmin/adminPromociones.php" >Administrar promociones</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="../vistaAdmin/reservasAdmin.php" target="_blank">Reservas</a>
+                    <a href="../vistaAdmin/reservasAdmin.php" >Reservas</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/insEmpleados.php" target="_blank">Listar Reservas</a></li>
+                        <li><a href="../vistaAdmin/insEmpleados.php" >Listar Reservas</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="">Empleados</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/insEmpleados.php" target="_blank">Insertar empleados</a></li>
-                        <li><a href="../vistaAdmin/listarEmpleados.php" target="_blank">Listar empleados</a></li>
-                        <li><a href="../vistaAdmin/buscarEmpleado.php" target="_blank">Buscar empleado</a></li>
+                        <li><a href="../vistaAdmin/insEmpleados.php" >Insertar empleados</a></li>
+                        <li><a href="../vistaAdmin/listarEmpleados.php" >Listar empleados</a></li>
+                        <li><a href="../vistaAdmin/buscarEmpleado.php" >Buscar empleado</a></li>
                     </ul>
                 </li>
+                <li><a href="/esenciaSpa">salir</a></li>
             </ul>
         </div>
     </header>
