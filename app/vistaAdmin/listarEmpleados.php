@@ -72,6 +72,8 @@
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
+        echo '<div class="tabla_contenido">';
+        
         echo '<table >';
         echo '<thead class="roboto-bold">';
         echo '<tr>';
@@ -105,6 +107,7 @@
         
         echo '</tbody>';
         echo '</table>';
+        echo '</div>';
     } else {
         echo 'No hay empleados disponibles';
     }

@@ -1,0 +1,22 @@
+
+.formulario-actualizar-admin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.actualizar_empleado{
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+
+}
+
+.center-botton{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;    
+}

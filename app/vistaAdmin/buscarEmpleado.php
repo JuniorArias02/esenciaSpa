@@ -16,7 +16,7 @@
 
 <body>
     <header class="header">
-        <div class="menu">
+        <div class="menu"> 
             <div class="logo">
                 <img src="../resources/img/logo.png" alt="Logo" class="logo-img">
             </div>

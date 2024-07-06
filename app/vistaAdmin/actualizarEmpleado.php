@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../resources/style/inicio.css">
     <link rel="stylesheet" href="../resources/style/reservas.css">
     <link rel="stylesheet" href="../resources/style/tipografia.css">
+    <link rel="stylesheet" href="../resources/style/actualizarEmp.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -21,9 +22,9 @@
             </div>
             <ul class="menu-items roboto-bold">
                 <li><a href="../vistaAdmin/inicioAdmin.php">Inicio</a></li>
-                <li><a href="../vistaAdmin/sobreNosotrosAdmin.php" >Sobre Nosotros</a></li>
+                <li><a href="../vistaAdmin/sobreNosotrosAdmin.php">Sobre Nosotros</a></li>
                 <li>
-                    <a href="../vistaAdmin/nuestrosServiciosAdmin.php" >Nuestros Servicios</a>
+                    <a href="../vistaAdmin/nuestrosServiciosAdmin.php">Nuestros Servicios</a>
                     <ul class="submenu">
                         <li><a href="#nuestros_Servicios">Nuestros Servicios</a></li>
                         <li><a href="#tratamiento_faciales">Tratamiento Faciales</a></li>
@@ -33,23 +34,23 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="../vistaAdmin/PromocionesAdmin.php" >Promociones</a>
+                    <a href="../vistaAdmin/PromocionesAdmin.php">Promociones</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/adminPromociones.php" >Administrar promociones</a></li>
+                        <li><a href="../vistaAdmin/adminPromociones.php">Administrar promociones</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="../vistaAdmin/reservasAdmin.php" >Reservas</a>
+                    <a href="../vistaAdmin/reservasAdmin.php">Reservas</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/insEmpleados.php" >Listar Reservas</a></li>
+                        <li><a href="../vistaAdmin/insEmpleados.php">Listar Reservas</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="">Empleados</a>
                     <ul class="submenu">
-                        <li><a href="../vistaAdmin/insEmpleados.php" >Insertar empleados</a></li>
-                        <li><a href="../vistaAdmin/listarEmpleados.php" >Listar empleados</a></li>
-                        <li><a href="../vistaAdmin/buscarEmpleado.php" >Buscar empleado</a></li>
+                        <li><a href="../vistaAdmin/insEmpleados.php">Insertar empleados</a></li>
+                        <li><a href="../vistaAdmin/listarEmpleados.php">Listar empleados</a></li>
+                        <li><a href="../vistaAdmin/buscarEmpleado.php">Buscar empleado</a></li>
                     </ul>
                 </li>
                 <li><a href="/esenciaSpa">salir</a></li>
@@ -127,25 +128,29 @@
             }
         }
         ?>
-        <form action="" method="post">
-            <input type="hidden" name="codempleado" value="<?php echo $_GET['codempleado']; ?>">
-            <label for="nomempleado">Nombre:</label>
-            <input type="text" id="nomempleado" name="nomempleado" value="<?php echo $nomempleado ?? ''; ?>" required><br><br>
-            <label for="apellempleado">Apellidos:</label>
-            <input type="text" id="apellempleado" name="apellempleado" value="<?php echo $apellempleado ?? ''; ?>" required><br><br>
-            <label for="telempleado">Teléfono:</label>
-            <input type="text" id="telempleado" name="telempleado" value="<?php echo $telempleado ?? ''; ?>"><br><br>
-            <label for="dirempleado">Dirección:</label>
-            <input type="text" id="dirempleado" name="dirempleado" value="<?php echo $dirempleado ?? ''; ?>"><br><br>
-            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-            <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="<?php echo $fechaNacimiento ?? ''; ?>"><br><br>
-            <label for="cargo">Cargo:</label>
-            <select id="cargo" name="cargo" required>
-                <option value="Administrador" <?php if (isset($cargo) && $cargo == "Administrador") echo "selected"; ?>>Administrador</option>
-                <option value="Empleado" <?php if (isset($cargo) && $cargo == "Empleado") echo "selected"; ?>>Empleado</option>
-            </select><br><br>
-            <input type="submit" value="Actualizar">
-        </form>
+        <div class="actualizar_empleado">
+            <form action="" method="post" class="roboto-light">
+                <input type="hidden" name="codempleado" value="<?php echo $_GET['codempleado']; ?>">
+                <label for="nomempleado">Nombre:</label>
+                <input type="text" id="nomempleado" name="nomempleado" value="<?php echo $nomempleado ?? ''; ?>" required><br><br>
+                <label for="apellempleado">Apellidos:</label>
+                <input type="text" id="apellempleado" name="apellempleado" value="<?php echo $apellempleado ?? ''; ?>" required><br><br>
+                <label for="telempleado">Teléfono:</label>
+                <input type="text" id="telempleado" name="telempleado" value="<?php echo $telempleado ?? ''; ?>"><br><br>
+                <label for="dirempleado">Dirección:</label>
+                <input type="text" id="dirempleado" name="dirempleado" value="<?php echo $dirempleado ?? ''; ?>"><br><br>
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="<?php echo $fechaNacimiento ?? ''; ?>"><br><br>
+                <label for="cargo">Cargo:</label>
+                <select id="cargo" name="cargo" required>
+                    <option value="Administrador" <?php if (isset($cargo) && $cargo == "Administrador") echo "selected"; ?>>Administrador</option>
+                    <option value="Empleado" <?php if (isset($cargo) && $cargo == "Empleado") echo "selected"; ?>>Empleado</option>
+                </select><br><br>
+                <div class="center-botton">
+                    <input type="submit" value="Actualizar">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 

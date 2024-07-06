@@ -106,7 +106,7 @@
                     echo "<td>" . $row["telefonoCliente"] . "</td>";
                     echo "<td>" . $row["fechaReserva"] . "</td>";
                     echo "<td>" . $row["codservicio"] . "</td>";
-                    echo "<td>";
+                    echo "<td class='accion_form'>";
                     echo "<button onclick=\"confirmarReserva('" . $row['telefonoCliente'] . "', '" . $row['nombreCliente'] . "')\">Confirmar</button>";
                     echo "<button class='cancel' onclick=\"cancelarReserva(" . $row['idReserva'] . ")\">Cancelar</button>";
                     echo "</td>";

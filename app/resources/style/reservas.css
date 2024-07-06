@@ -305,15 +305,26 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 table {
   
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
   margin-bottom: 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.accion_form{
+  width: 90%;
+  display: flex;
+  border-color: transparent;
+  /* border-bottom:1px solid #ddd ; */
+  
+}
+table button{
+  width: 50%;
 }
 th, td {
   padding: 10px;
